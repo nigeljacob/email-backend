@@ -1,0 +1,7 @@
+[build]
+  functions = "functions" # Specifies the directory for Netlify Functions
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/sendEmail"
+  status = 200
